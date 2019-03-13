@@ -17,13 +17,12 @@ For simplification, our project implementation:
 This file consists of the main parts of our processor. 
 ### Pipeline_testbench_complete.v
 This file is our testbench, it instantiates Top_pipeline.v and generates clock and nrst signal in order for our Core module to work.
-### reg_bank.v
-This module is our register bank.
+### ?register file?
 ### Mem_*.v
 This module is our Instruction memory. (Size: 32x64)
 ### Mem_data.v
 This module is our Data memory. (Size: 8x64)
-### Test File
+### ?Test File?
 These are our instructions that will be loaded in Instruction Memory to be executed.
 
 ## Prerequisites
@@ -47,8 +46,7 @@ apt install docker.io
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-The tests are located in the ./test/ directory. Everything is built and run using the make command.
+?The tests are located in the ./test/ directory. Everything is built and run using the make command.?
 
 ```
 Give an example
